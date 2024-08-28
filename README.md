@@ -22,6 +22,8 @@ This is a PaliGemma-3B based model for Malayalam captioning and Visual Question 
 - **VQA LORA Adapters:** [VishnuPJ/MalayaLLM-Paligemma-VQA-3B-Adapters](https://huggingface.co/VishnuPJ/MalayaLLM-Paligemma-VQA-3B-Adapters)
 - **Training Precision:** `float16`,`4bit`
 
+# Dataset Creation
+I have used [indictrans2](https://huggingface.co/ai4bharat/indictrans2-en-indic-1B) for translating English datasets to Malayalam.
 
 ## 💾 Installation Instructions
 * pip -q install -U git+https://github.com/huggingface/transformers.git datasets wandb
