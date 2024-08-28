@@ -24,6 +24,7 @@ This is a PaliGemma-3B based model for Malayalam captioning and Visual Question 
 
 # Dataset Creation
 I have used [indictrans2](https://huggingface.co/ai4bharat/indictrans2-en-indic-1B) for translating English datasets to Malayalam.
+Refer translate_to_mlm.py
 
 ## 💾 Installation Instructions
 * pip -q install -U git+https://github.com/huggingface/transformers.git datasets wandb
